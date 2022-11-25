@@ -9,6 +9,7 @@ import { SignupComponent } from './signup/signup.component';
 import { HomeComponent } from './home/home.component';
 import { IndianComponent } from './indian/indian.component';
 import { ChineseComponent } from './chinese/chinese.component';
+import { NavComponent } from './nav/nav.component';
 
 const myRoute:Routes=[
   {
@@ -41,7 +42,8 @@ const myRoute:Routes=[
     SignupComponent,
     HomeComponent,
     IndianComponent,
-    ChineseComponent
+    ChineseComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
