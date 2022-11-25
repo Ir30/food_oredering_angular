@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { HomeComponent } from './home/home.component';
 import { IndianComponent } from './indian/indian.component';
+import { ChineseComponent } from './chinese/chinese.component';
 
 const myRoute:Routes=[
   {
@@ -25,6 +26,10 @@ const myRoute:Routes=[
   {
     path:"indian",
     component:IndianComponent
+  },
+  {
+    path:"chinese",
+    component:ChineseComponent
   }
 
 ]
@@ -35,7 +40,8 @@ const myRoute:Routes=[
     LoginComponent,
     SignupComponent,
     HomeComponent,
-    IndianComponent
+    IndianComponent,
+    ChineseComponent
   ],
   imports: [
     BrowserModule,
